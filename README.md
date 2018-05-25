@@ -1,14 +1,12 @@
-Land Registry INSPIRE index polygons from GOV.UK published as geojson as a part of the [digital-land](https://github.com/communitiesuk/digital-land-data) alpha.
-
-    https://www.gov.uk/inspire-index-polygons-spatial-data
+[Land Registry INSPIRE index polygons](https://www.gov.uk/inspire-index-polygons-spatial-data) from GOV.UK published as geojson as a part of the [digital-land](https://github.com/communitiesuk/digital-land-data) alpha.
 
 To rebuild the data:
 
-    $ sudo apt-get install gdal-bin xsltproc
+    $ sudo apt-get install gdal-bin
 
 or 
 
-    $ brew install gdal xsltproc
+    $ brew install gdal
 
 then
 
@@ -16,7 +14,6 @@ then
     $ make
 
 # Licence
-
 The software in this project is open source and covered by [LICENSE](LICENSE) file.
 
 Land Registry data has been copied into this repository is under the terms of the [LICENCE](LICENSE.md).
